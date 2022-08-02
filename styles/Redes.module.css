@@ -1,0 +1,16 @@
+.redes {
+display: flex;
+justify-content: right;
+margin: 2rem auto;
+padding-right: 28%;
+}
+
+@media(max-width: 768px) {
+    .redes {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        margin: 4rem auto;  
+        padding: 0;
+    }
+}

@@ -1,0 +1,44 @@
+.contain{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media(max-width: 768px) {
+    .contain {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.card {
+    margin: 2rem;
+    border: 1px solid rgba(255,255,255,.2);
+    padding: .4rem;
+
+}
+
+.text{
+    color: var(--blanco);
+    background: var(--backgroung-card);
+    padding: 1rem 0;
+    position: relative;
+    bottom: 2px;
+    font-size: .9rem;
+    text-align: center;
+}
+
+.lenguaje {
+    display: flex;
+    justify-content: center;   
+}
+
+.lenguaje p {
+    padding: 0 .2rem;
+    border: 1px solid var(--secundario);
+    margin: .2rem;
+    padding: .4rem .8rem;
+    border-radius: 20px;
+    font-size: .8rem;    
+   
+}
+
+

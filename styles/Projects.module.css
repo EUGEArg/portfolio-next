@@ -1,0 +1,30 @@
+.section {
+    /* height: 100vh; */
+    display: flex;
+    justify-content: right; 
+    margin-bottom: 2rem;
+}
+
+@media(max-width: 768px) {
+    .section {
+        justify-content: center; 
+        margin: 0 auto;
+        border-bottom: 1px solid rgba(255,255,255,.2);
+        width: 50vw;
+    }
+}
+
+.contain {
+    padding-right: 9%;
+}
+
+@media(max-width: 768px) {
+    .contain {
+        padding:0 2rem 2rem; 
+    }
+}
+
+.content {
+    text-align: center;
+    margin-top: 2rem;
+}

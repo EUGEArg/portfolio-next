@@ -1,0 +1,71 @@
+ .header {
+    width: 20vw;
+	position: fixed;
+	left: 0;
+    padding: 6rem;
+    height: 100vh;
+    border-right: 1px solid rgba(255,255,255,.2);
+    text-align: center;
+} 
+
+ @media(max-width: 768px) {
+    .header {
+        position: relative;
+        width: 80vw;
+        margin: 4rem auto 0;
+        padding: 0;
+        border-right: none;
+    }
+} 
+
+.border1, .border2 {
+    position: absolute;
+    z-index: 1;
+    border: 1px solid rgba(255,255,255,.2);
+    border-radius: 2px;
+}
+
+.border1 {
+    left: 0;
+    bottom: 20px;
+    right: 0;
+    top: 20px;
+}
+
+.border2 {
+    left: 20px;
+    bottom: 0;
+    right: 20px;
+    top: 0;
+}
+
+.imagen {
+    padding: 38px 41px;
+    position: relative;
+    margin-bottom: 6rem;
+    z-index: 5;
+}
+
+
+.text h2 {
+    text-transform: uppercase;
+}
+
+.typewriter {
+font-size: 1.4rem;
+text-transform: capitalize;
+}
+
+.typewriter :nth-child(1) {
+    color: var(--secundario);
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.typewriter :nth-child(3) {
+    color: var(--secundario);
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+
