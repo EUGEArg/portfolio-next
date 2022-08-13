@@ -1,4 +1,4 @@
-import { scaleRotate as Menu } from 'react-burger-menu'
+import { slide as Menu } from 'react-burger-menu'
 import Link from 'next/link'
 
 const Burguer = () => {
@@ -6,17 +6,13 @@ const Burguer = () => {
 	return (
 		<div id="outer-container" className='burguer'>
 			<Menu
-				//  pageWrapId={ "page-wrap" }
-				// outerContainerId={ "outer-container" }
-				itemListElement="div"
-				width={260}
-				disableAutoFocus
-				>
+				width={ 280 }>
 				<Links />
 			</Menu>
 		</div>
 	)
 }
+
 
 export const Links = () => (
 	<>

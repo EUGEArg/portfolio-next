@@ -1,6 +1,5 @@
 import Layout from '../components/Layout'
 import Header from '../components/Header'
-// import Navegacion from '../components/Navegacion'
 import Skill from '../components/Skill'
 import Informacion from '../components/Informacion'
 import Projects from '../components/Projects'
