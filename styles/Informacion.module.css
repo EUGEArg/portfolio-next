@@ -28,12 +28,11 @@
 .title {
     text-transform: uppercase;
     font-size: 2.4rem;
-    border-bottom: #5f5e62 .15rem solid;
+    border-bottom: rgba(255,255,255,.2) .15rem solid;
     line-height: 4rem ;
     color: #f0f0f2;
     font-weight: 400;
     }
-
 
 .info {
     font-size: 1.4rem;
@@ -46,9 +45,9 @@
     }
 }
 
-
 .info h3 {
     text-align: center;
     margin: 4rem;
+    color: var(--secundario);
 }
 

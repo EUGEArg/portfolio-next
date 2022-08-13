@@ -1,13 +1,10 @@
 import Link from "next/link"
 import Image from 'next/image'
 import styles from '../styles/Header.module.css'
-import { useRouter } from 'next/router'
 import { SiLogmein, SiInstagram, SiGmail, SiTelegram } from "react-icons/si"
 import { useTypewriter} from 'react-simple-typewriter'
 
 const Header = () => {
-	const router = useRouter()
-	const currentRoute = router.pathname;
 
 	const fontStyles = {
 		fontSize: '1.6rem',
@@ -20,27 +17,26 @@ const Header = () => {
 	})
 
 	return (
-		<header className={styles.header}>
+		<div>			
+		<header className={styles.header} id="home">			
 			<div className={styles.imagen}>
-			<div  className={styles.border1}></div>
+				<div  className={styles.border1}></div>
 				<div className={styles.border2}></div>
 				<a>
 				<Image  src="/img/img-welcome.jpg" alt="Imagen" width={300} height={300} priority />				
 				</a>
-				
-			</div>						
-			
-			<div className={styles.text}>
-				<h2>Hola! Yo soy</h2>
-				<div className={styles.typewriter}>
-					<span>[</span>
-					<span > {text} </span>
-					<span>]</span>
-				</div>
-				
-				<Link href=''><p>Estoy disponible para un trabajo freelance. Contáctame</p></Link>
-				
+				<div className={styles.text}>
+					<h2>Hola! Yo soy</h2>
+					<p className={styles.typewriter}>
+						<span className={styles.typewriterSpan}> {text} </span>
+					</p>				
+					</div>		
 			</div>
+								
+			<div className={styles.text}>
+			<Link href='#form'><a>Estoy preparada para formar parte de tu equipo. Contactame</a></Link>		
+			</div>
+			
 			<div>
 				<div className={styles.links}>
 					<Link href="https://www.linkedin.com/in/eugenia-rivarossa/">
@@ -66,6 +62,8 @@ const Header = () => {
 				</div>
 			</div>
 		</header>
+		</div>
+		
 	)
 }
 

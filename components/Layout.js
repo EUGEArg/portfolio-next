@@ -1,17 +1,17 @@
 import Head from 'next/head'
-import Header from './Header'
+import Navegacion from './Navegacion'
+
+
 
 
 const Layout = ({ children, pagina }) => {
     return (
         <div>
             <Head>
-                <title>Portfolio EugeARG - {pagina}</title>
+                <title>Eugenia Rivarossa {pagina}</title>
                 <meta lang="es" name="description" content="Portfolio Frontend Developer" />
             </Head>
-
-            <Header />
-
+            <Navegacion />
             {children}
 
         </div>

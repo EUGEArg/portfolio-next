@@ -36,7 +36,7 @@ const Formulario = () => {
 	};
 	
 	return (		
-			<main className={styles.contain}>	
+			<main className={styles.contain} id='form'>	
 			<div className={styles.container}>
 			<div className={styles.textoContacto}>
 					<h2 className='title'>para contactar <span>conmigo</span></h2>

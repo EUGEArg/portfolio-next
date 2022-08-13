@@ -12,7 +12,7 @@ const Projects = () => {
 	}
 	return (
 		
-		<main className={styles.section}>
+		<main className={styles.section} id='proyectos'>
 			<div className={styles.contain}>
 			<h2 className='title'>Mis últimos <span>proyectos</span></h2>
 			<div>

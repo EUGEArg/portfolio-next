@@ -2,12 +2,24 @@
 
 :root {
 	--background: #323136;
-	--backgroung-card: #7f7f7f4d;
+	--background-card: #7f7f7f4d;
 	--blanco: #cfcfd1;
 	--secundario: #f33974;
 	--fuente-principal: 'Montserrat', sans-serif;
 }
 
+main {
+	width: 80vw;
+	margin-left: 160px;
+    margin-right: 20px;
+}
+
+@media(max-width: 768px) {
+	main {
+		width: 100vw;
+		margin: 0;
+	}
+}
 
 html,
 body {
@@ -17,6 +29,7 @@ body {
 	font-weight: 300;
 	background-color: var(--background);
 	color: var(--blanco);
+	/* scroll-behavior: smooth; */
 	overflow-x: hidden;
 }
 
@@ -34,27 +47,28 @@ body {
 }
 
 a {
-	color: var(--secundario);
 	text-decoration: none;
+	color: var(--blanco);
+	font-size: 1.1rem;
+	text-transform: uppercase;
+	font-weight: 500;
+	transition-property: color;
+	transition-duration: .3s;
+	z-index: 10;
 }
 
 li {
 	list-style: none;
 	font-size: 1.2rem;
 	color: var(--blanco);
-
 }
 
-/* img {
+img {
 	max-width: 100%;
-} */
+} 
 
 h1,h2,h3 {
 	font-weight: 300;
 }
 
-/* .contacto {
-	display: flex;
-	align-items: center;
-} */
 

@@ -1,6 +1,6 @@
 .contain{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3,1fr);
 }
 
 @media(max-width: 768px) {
@@ -9,20 +9,20 @@
     }
 }
 
-.card {
-    margin: 2rem;
-    border: 1px solid rgba(255,255,255,.2);
-    padding: .4rem;
 
+.card {
+    margin: 1.2rem;
+    border: 1px solid rgba(255,255,255,.2);
+    padding: .6rem;
 }
 
 .text{
     color: var(--blanco);
-    background: var(--backgroung-card);
+    background: var(--background-card);
     padding: 1rem 0;
     position: relative;
     bottom: 2px;
-    font-size: .9rem;
+    font-size: .8rem;
     text-align: center;
 }
 
@@ -35,7 +35,7 @@
     padding: 0 .2rem;
     border: 1px solid var(--secundario);
     margin: .2rem;
-    padding: .4rem .8rem;
+    padding: .4rem .6rem;
     border-radius: 20px;
     font-size: .8rem;    
    

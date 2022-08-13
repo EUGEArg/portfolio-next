@@ -1,8 +1,7 @@
  .header {
-    width: 20vw;
+    width: 20vw; 
 	position: fixed;
-	left: 0;
-    padding: 6rem;
+    padding: 4rem;
     height: 100vh;
     border-right: 1px solid rgba(255,255,255,.2);
     text-align: center;
@@ -12,8 +11,8 @@
     .header {
         position: relative;
         width: 80vw;
-        margin: 4rem auto 0;
-        padding: 0;
+        margin: 0 auto 0;
+        padding: 1rem 0;
         border-right: none;
     }
 } 
@@ -42,7 +41,7 @@
 .imagen {
     padding: 38px 41px;
     position: relative;
-    margin-bottom: 6rem;
+    margin: 4rem 0;
     z-index: 5;
 }
 
@@ -51,21 +50,91 @@
     text-transform: uppercase;
 }
 
+.text a {
+    text-transform: none;
+    font-weight: 300;
+    font-size: 1rem;
+    color: var(--blanco);
+    border-bottom: 1px solid #999;
+    line-height: 1.6rem;
+}
+
+@media(max-width: 768px) {
+    .text a {
+        font-size: .9rem;
+    }
+}
+
+.text a:hover {
+    color: aliceblue;
+    border-bottom: 1px solid var(--blanco);
+
+}
+
 .typewriter {
-font-size: 1.4rem;
+font-size: 1.6rem;
 text-transform: capitalize;
+position: relative;
+min-height: 40px;
+margin: 0;
 }
 
-.typewriter :nth-child(1) {
+@media(max-width: 768px){
+    .typewriter {
+        font-size: 1.3rem;
+        }
+}
+
+.typewriterSpan::before {
+    content: "]";
+    right: 0;
+}
+
+.typewriterSpan::after {
+    content: "[";
+    left: 0;
+}
+
+.typewriterSpan::after, .typewriterSpan::before {
     color: var(--secundario);
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 400;
+    position: absolute;
+    animation: opacity 3s infinite;
+  
+
 }
 
-.typewriter :nth-child(3) {
+@media(max-width: 768px) {
+    .typewriterSpan::after, .typewriterSpan::before {
+        font-size: 1.6rem;
+        position: absolute;
+        animation: opacity 3s infinite;
+        margin-bottom: .2rem;
+    }
+}
+
+.links {
+    margin-top: 1.4rem;
+}
+
+.links a {
     color: var(--secundario);
-    font-size: 2rem;
-    font-weight: 400;
 }
 
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.6
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
 

@@ -16,7 +16,7 @@ const Skill = () => {
         margin: '1rem 0.6rem',
     }
     return (
-        <main className={styles.skills}>
+        <main className={styles.skills} id='skills'>
             <div className={styles.container}>
                 <h2 className='title'>mi <span>skills</span></h2>
                 <div className={styles.card}>
@@ -25,7 +25,7 @@ const Skill = () => {
                         <h3 className={styles.title}>soft-skills</h3>
                         <ul className={styles.text}>
                             <li>Creatividad</li>
-                            <li>Communicación</li>
+                            <li>Comunicación</li>
                             <li>Trabajo en equipo </li>
                             <li>Manejo del tiempo</li>
                             <li>Organización</li>
