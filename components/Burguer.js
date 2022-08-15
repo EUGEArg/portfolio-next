@@ -22,6 +22,7 @@ const Burguer = () => {
 				width={ 280 }
 				isOpen={ isOpen }
 				onStateChange={ handleStateChange }
+				right
 			>
 				<Link href="/"><a onClick={() => closeMenu()}>Home</a></Link>
 				<Link href="#skills"><a onClick={() => closeMenu()}>skills</a></Link>
