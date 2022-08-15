@@ -100,7 +100,7 @@ margin: 0;
     font-size: 1.8rem;
     font-weight: 400;
     position: absolute;
-    animation: opacity 3s infinite;
+    animation: opacity 3.35s infinite;
   
 
 }
@@ -108,8 +108,6 @@ margin: 0;
 @media(max-width: 768px) {
     .typewriterSpan::after, .typewriterSpan::before {
         font-size: 1.6rem;
-        position: absolute;
-        animation: opacity 3s infinite;
         margin-bottom: .2rem;
     }
 }
@@ -129,11 +127,11 @@ margin: 0;
     }
 
     50% {
-        opacity: 0.6
+        opacity: 1;
     }
 
     100% {
-        opacity: 1;
+        opacity: 0;
     }
 
 }
