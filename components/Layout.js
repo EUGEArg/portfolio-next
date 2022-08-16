@@ -8,7 +8,7 @@ const Layout = ({ children, pagina }) => {
     return (
         <div>
             <Head>
-                <title>Eugenia Rivarossa {pagina}</title>
+                <title>Eugenia Rivarossa  | Portfolio{pagina}</title>
                 <meta lang="es" name="description" content="Portfolio Frontend Developer" />
             </Head>
             <Navegacion />
