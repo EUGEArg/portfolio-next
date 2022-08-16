@@ -18,7 +18,7 @@ const Skill = () => {
     return (
         <main className={styles.skills} id='skills'>
             <div className={styles.container}>
-                <h2 className='title'>mi <span>skills</span></h2>
+                <h2 className='title'>mis <span>habilidades</span></h2>
                 <div className={styles.card}>
                     <div className={styles.contenedor}>
                         <BsFillEmojiWinkFill style={fontStyles} />

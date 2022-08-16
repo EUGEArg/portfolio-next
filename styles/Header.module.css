@@ -1,5 +1,5 @@
  .header {
-    width: 20%; 
+    width: 22%; 
 	position: fixed;
     height: 100vh;
     padding: 3rem;
@@ -52,7 +52,7 @@
 .imagen {
     padding: 40px 28px;
     position: relative;
-    margin: 4rem 0;
+    margin: 1rem 0;
     z-index: 5;
 }
 
@@ -63,7 +63,7 @@
 }
 
 .text {
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 
 @media(max-width:768px) {

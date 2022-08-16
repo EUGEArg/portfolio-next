@@ -14,22 +14,12 @@ export default function Home() {
 				{/* <Navegacion /> */}
 			</Layout>	
 			<Header />		
-			<main>	
-			
-				<div>
-					<Skill />
-				</div>
-				<div>
-					<Informacion />
-				</div>
-				<div>
-					<Projects />
-				</div>
-				<div>
-					<Formulario />
-				</div>
+			<main>
+				<Skill />	
+				<Informacion />
+				<Projects />
+				<Formulario />
 			</main>
 		</>
-
 	)
 }
