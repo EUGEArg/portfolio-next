@@ -3,11 +3,18 @@
 	display: flex;
 	justify-content: right; 
     align-items: center;
+}
 
+@media (max-width: 1040px) {
+    .contain {
+        height: 72vh;
+        justify-content: center; 
+    }
 }
 
 @media(max-width: 768px) {
     .contain {
+        height: 100vh;
         justify-content: center; 
     }
 }
@@ -15,6 +22,12 @@
 .container {
     padding-right: 14%;
     text-align: center;
+}
+
+@media (max-width: 1040px) {
+    .container {
+        padding: 0;
+    }
 }
 
 @media(max-width: 768px) {
@@ -35,7 +48,8 @@
 }
 
 .textoContacto p {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
 }
 
 @media(max-width: 768px) {

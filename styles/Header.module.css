@@ -1,11 +1,22 @@
  .header {
-    width: 20vw; 
+    width: 20%; 
 	position: fixed;
-    padding: 4rem;
     height: 100vh;
+    padding: 3rem;
+    margin-right: 2rem;    
     border-right: 1px solid rgba(255,255,255,.2);
     text-align: center;
 } 
+
+@media (max-width: 1040px) {
+    .header {
+        position: relative;
+        width: 40vw;
+        margin: 0 auto 0;
+        padding: 1rem 0;
+        border-right: none;
+    }
+}
 
  @media(max-width: 768px) {
     .header {
@@ -26,28 +37,46 @@
 
 .border1 {
     left: 0;
-    bottom: 20px;
+    bottom: 14px;
     right: 0;
-    top: 20px;
+    top: 14px;
 }
 
 .border2 {
-    left: 20px;
+    left: 14px;
     bottom: 0;
-    right: 20px;
+    right: 14px;
     top: 0;
 }
 
 .imagen {
-    padding: 38px 41px;
+    padding: 40px 28px;
     position: relative;
     margin: 4rem 0;
     z-index: 5;
 }
 
+@media(max-width:768px)  {
+    .imagen {
+        margin: 3rem 0;
+    }
+}
 
-.text h2 {
+.text {
+    padding: 2rem 0;
+}
+
+@media(max-width:768px) {
+    .text {
+        padding: 0;
+    }
+}
+
+.text h3 {
     text-transform: uppercase;
+    font-size: 1.4rem;
+    padding: 0;
+    margin: 1rem 0 1rem;
 }
 
 .text a {
@@ -72,11 +101,14 @@
 }
 
 .typewriter {
-font-size: 1.6rem;
 text-transform: capitalize;
 position: relative;
 min-height: 40px;
 margin: 0;
+}
+
+.typewriterSpan {
+    font-size: 1.4rem;
 }
 
 @media(max-width: 768px){
@@ -97,8 +129,8 @@ margin: 0;
 
 .typewriterSpan::after, .typewriterSpan::before {
     color: var(--secundario);
-    font-size: 1.8rem;
-    font-weight: 400;
+    font-size: 1.4rem;
+    font-weight: 600;
     position: absolute;
     animation: opacity 3.35s infinite;
   
@@ -108,7 +140,6 @@ margin: 0;
 @media(max-width: 768px) {
     .typewriterSpan::after, .typewriterSpan::before {
         font-size: 1.6rem;
-        margin-bottom: .2rem;
     }
 }
 

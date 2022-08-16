@@ -23,18 +23,18 @@ const Header = () => {
 				<div  className={styles.border1}></div>
 				<div className={styles.border2}></div>
 				<a>
-				<Image  src="/img/img-welcome.jpg" alt="Imagen" width={300} height={300} priority />				
+				<Image  src="/img/img-welcome.jpg" alt="Imagen" width={320} height={320} priority />				
 				</a>
 				<div className={styles.text}>
-					<h2>Hola! Yo soy</h2>
+					<h3>Hola! Yo soy</h3>
 					<p className={styles.typewriter}>
 						<span className={styles.typewriterSpan}> {text} </span>
 					</p>				
-					</div>		
+				</div>		
 			</div>
 								
 			<div className={styles.text}>
-			<Link href='#form'><a>Estoy preparada para formar parte de tu equipo. Contactame</a></Link>		
+			<Link href='#form'><a>Estoy preparada para formar parte de tu equipo. <br/> Contactame</a></Link>		
 			</div>
 			
 			<div>

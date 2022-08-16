@@ -12,6 +12,15 @@ main {
 	width: 80vw;
 	margin-left: 160px;
     margin-right: 20px;
+	box-sizing: border-box;
+}
+
+@media (max-width: 1040px) {
+	main {
+		width: 100%;
+		margin: 0;
+		box-sizing: border-box;
+	}
 }
 
 @media(max-width: 768px) {

@@ -5,6 +5,17 @@
     align-items: center;   
 }
 
+@media (max-width: 1040px) {
+    .skills {
+        margin: auto;
+        justify-content: center;
+        height: 90vh;
+        border-top: 1px solid rgba(255,255,255,.2);
+        border-bottom: 1px solid rgba(255,255,255,.2);
+        width: 60%;
+    }
+}
+
 @media(max-width: 768px) {
     .skills {
         border-top: 1px solid rgba(255,255,255,.2);
@@ -18,6 +29,12 @@
 
 .container {
     padding-right: 12%;
+}
+
+@media (max-width: 1040px) {
+    .container {
+        padding-right: 0;
+    }
 }
 
 @media(max-width: 768px) {
@@ -44,6 +61,13 @@
     margin: auto 6rem;
 }
 
+@media (max-width: 1040px)  {
+    .contenedor {
+        margin:0 auto;
+        min-width: 400px;
+    }  
+}
+
 @media(max-width:768px) {
     .contenedor {
         margin-bottom: 4rem;
@@ -53,6 +77,13 @@
 .content {
     margin-top: 2rem;
     min-height: 300px;
+}
+
+@media (max-width: 1040px) {
+    .content {
+        min-width: 300px;
+        text-align: center;
+}
 }
 
 @media(max-width: 768px) {
