@@ -1,14 +1,13 @@
 import styles from '../styles/Projects.module.css'
 import Link from 'next/link'
 import Card from './Card'
-
 import { SiGithub } from "react-icons/si"
 
 const Projects = () => {
 
 	const fontStyles = {
-		fontSize: '2rem',
-		margin: '0 1.2rem'
+		fontSize: '1.6rem',
+		margin: '.6rem',
 	}
 	return (
 		

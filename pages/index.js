@@ -10,13 +10,11 @@ import Formulario from '../components/Formulario'
 export default function Home() {
 	return (
 		<>
-			<Layout>
-				{/* <Navegacion /> */}
-			</Layout>	
+			<Layout/>
 			<Header />		
 			<main>
-				<Skill />	
 				<Informacion />
+				<Skill />	
 				<Projects />
 				<Formulario />
 			</main>

@@ -149,6 +149,13 @@ margin: 0;
 
 .links a {
     color: var(--secundario);
+    font-size: 1.4rem;
+    margin: 1rem;
+}
+
+.links a:hover{
+    opacity: 0.8;
+  
 }
 
 

@@ -9,9 +9,6 @@
     .skills {
         margin: auto;
         justify-content: center;
-        height: 90vh;
-        border-top: 1px solid rgba(255,255,255,.2);
-        border-bottom: 1px solid rgba(255,255,255,.2);
         width: 60%;
     }
 }
@@ -21,9 +18,10 @@
         border-top: 1px solid rgba(255,255,255,.2);
         border-bottom: 1px solid rgba(255,255,255,.2);
         width: 50vw;
-        height: 200vh;
+        height: 180vh;
         margin: auto;
         justify-content: center;
+        margin-bottom: 4rem;
     }
 }
 
@@ -39,7 +37,7 @@
 
 @media(max-width: 768px) {
     .container {
-        padding: 4rem;
+        padding: 2rem;
     }
 }
 
@@ -70,7 +68,7 @@
 
 @media(max-width:768px) {
     .contenedor {
-        margin-bottom: 4rem;
+        margin-bottom: 1rem;
     }   
 }
 

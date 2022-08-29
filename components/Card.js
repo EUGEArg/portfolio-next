@@ -9,20 +9,6 @@ const Card = () => {
         <div className={styles.container}>
             <div className={styles.contain}>
                 <div className={styles.card}>
-                    <Link href='https://nexusstudio.up.railway.app/' >
-                        <a target='_blank'>
-                            <Image width={270} height={270}  priority src="/projects/nexus.png" alt="Juego del Ahorcado" />
-                            <div className={styles.text}>
-                                <h3>Web Site: NEXUS STUDIO</h3>
-                                <div className={styles.lenguaje}>
-                                    <p>Next.js</p>
-                                </div>
-                                
-                            </div>                           
-                        </a>
-                    </Link>
-                </div>
-                <div className={styles.card}>
                     <Link href='https://guitarla-next-699ceyhp5-eugearg.vercel.app/'>
                         <a target='_blank'>
                             <Image width={270} height={270}  priority src="/projects/laguitar.png" alt="Sitio de Venta de Guitarras" />
@@ -46,8 +32,24 @@ const Card = () => {
                                 <div className={styles.lenguaje}>
                                     <p>React</p>
                                     <p>Styled Components</p>
+                                    <p>Custom Hooks</p>
                                 </div>                            
                             </div>                            
+                        </a>
+                    </Link>
+                </div>
+                <div className={styles.card}>
+                    <Link href='https://nexusstudio.up.railway.app/' >
+                        <a target='_blank'>
+                            <Image width={270} height={270}  priority src="/projects/nexus.png" alt="Juego del Ahorcado" />
+                            <div className={styles.text}>
+                                <h3>Web Site: NEXUS STUDIO</h3>
+                                <div className={styles.lenguaje}>
+                                    <p>Next.js</p>
+                                    <p>Módulos CSS</p>
+                                </div>
+                                
+                            </div>                           
                         </a>
                     </Link>
                 </div>
@@ -56,24 +58,26 @@ const Card = () => {
                         <a target='_blank'>
                             <Image width={270} height={270}  priority src="/projects/gastos.png" alt="Controlador de Gastos" />
                             <div className={styles.text}>
-                                <h3>Planificador de Gastos</h3>
+                                <h3>Control de Presupuesto</h3>
                                 <div  className={styles.lenguaje}>
                                     <p>React</p>
+                                    <p>Vite</p>
+                                    <p>Local Storage</p>
                                 </div>
                             </div>                           
                         </a>
                     </Link>
                 </div>                
                 <div className={styles.card}>
-                    <Link href='https://eugearg.github.io/to-do-tasks/' >
+                    <Link href='https://delicate-axolotl-d89e72.netlify.app/' >
                         <a target='_blank'>
-                            <Image width={270} height={270}  priority src="/projects/todoapp.jpg" alt="Juego del Ahorcado" />
+                            <Image width={270} height={270}  priority src="/projects/drinks.png" alt="Juego del Ahorcado" />
                             <div className={styles.text}>
-                                <h3>TODO app</h3>
+                                <h3>Buscador de bebidas</h3>
                                 <div className={styles.lenguaje}>
-                                    <p>Javascript</p>
-                                    <p>html</p>
-                                    <p>css</p>
+                                    <p>Vite</p>
+                                    <p>Context API</p>
+                                    <p>React-Bootstrap</p>
                                 </div>
                             </div>                            
                         </a>

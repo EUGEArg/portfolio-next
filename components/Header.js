@@ -6,10 +6,10 @@ import { useTypewriter} from 'react-simple-typewriter'
 
 const Header = () => {
 
-	const fontStyles = {
-		fontSize: '1.6rem',
-		margin: '.6rem',
-	}
+	// const fontStyles = {
+	// 	fontSize: '1.6rem',
+	// 	margin: '.6rem',
+	// }
 
 	const { text } = useTypewriter({
 		words: ['eugenia', 'front end developer'],
@@ -26,7 +26,7 @@ const Header = () => {
 				<Image  src="/img/img-welcome.jpg" alt="Imagen" width={320} height={320} priority />				
 				</a>
 				<div className={styles.text}>
-					<h3>Hola! Yo soy</h3>
+					<h3>Hola! Soy</h3>
 					<p className={styles.typewriter}>
 						<span className={styles.typewriterSpan}> {text} </span>
 					</p>				
@@ -41,22 +41,17 @@ const Header = () => {
 				<div className={styles.links}>
 					<Link href="https://www.linkedin.com/in/eugenia-rivarossa/">
 						<a target='_blank'>
-							<SiLogmein style={fontStyles} />
-						</a>
-					</Link>
-					<Link href="https://www.instagram.com/nexus_studio.ok/">
-						<a target='_blank'>
-							<SiInstagram style={fontStyles} />
+							<SiLogmein />
 						</a>
 					</Link>
 					<Link href="mailto:eugeniarivarossa@gmail.com">
 						<a target='_blank'>
-							<SiGmail style={fontStyles} />
+							<SiGmail />
 						</a>
 					</Link>
 					<Link href="https://t.me/eugeArg">
 						<a target='_blank'>
-							<SiTelegram style={fontStyles} />
+							<SiTelegram  />
 						</a>
 					</Link>
 				</div>
