@@ -11,7 +11,7 @@ const Card = () => {
             <div className={styles.card}>
                     <Link href='https://quioscoappdeployment-production.up.railway.app/' >
                         <a target='_blank'>
-                            <Image width={270} height={270} priority src="/projects/quioscoapp.jpg" alt="Juego del Ahorcado" />
+                            <Image width={270} height={270} priority src="/projects/quioscoapp.jpg" alt="Quiscoapp- Quiosco de Comida" />
                             <div className={styles.text}>
                                 <h3>Quioscoapp</h3>
                                 <div className={styles.lenguaje}>
@@ -56,7 +56,7 @@ const Card = () => {
                 <div className={styles.card}>
                     <Link href='https://nexusstudio.up.railway.app/' >
                         <a target='_blank'>
-                            <Image width={270} height={270}  priority src="/projects/nexus.jpg" alt="Juego del Ahorcado" />
+                            <Image width={270} height={270}  priority src="/projects/nexus.jpg" alt="Sitio Web- NexusStudio" />
                             <div className={styles.text}>
                                 <h3>Web Site: NEXUS STUDIO</h3>
                                 <div className={styles.lenguaje}>
@@ -86,7 +86,7 @@ const Card = () => {
                 <div className={styles.card}>
                     <Link href='https://delicate-axolotl-d89e72.netlify.app/' >
                         <a target='_blank'>
-                            <Image width={270} height={270}  priority src="/projects/drinks.jpg" alt="Juego del Ahorcado" />
+                            <Image width={270} height={270}  priority src="/projects/drinks.jpg" alt="Buscador de Bebidas" />
                             <div className={styles.text}>
                                 <h3>Buscador de bebidas</h3>
                                 <div className={styles.lenguaje}>
@@ -101,7 +101,7 @@ const Card = () => {
                 <div className={styles.card}>
                     <Link href='https://splendorous-youtiao-e3ba17.netlify.app/' >
                         <a target='_blank'>
-                            <Image width={270} height={270} priority src="/projects/seguro.jpg" alt="Juego del Ahorcado" />
+                            <Image width={270} height={270} priority src="/projects/seguro.jpg" alt="Buscador de Cancioens" />
                             <div className={styles.text}>
                                 <h3>Buscador de Canciones</h3>
                                 <div className={styles.lenguaje}>
