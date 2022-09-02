@@ -41,8 +41,7 @@ const Card = () => {
                 <div className={styles.card}>
                     <Link href='https://starlit-tartufo-cb3262.netlify.app/'>
                         <a target='_blank'>
-                            <Image width={270} height={270}  priority src="/projects/cripto.jpg
-                            " alt="Conversor de Criptomonedas" />
+                            <Image width={270} height={270}  priority src="/projects/cripto.jpg" alt="Conversor de Criptomonedas" />
                             <div className={styles.text}>
                                 <h3>Cotizador Criptomonedas</h3>
                                 <div className={styles.lenguaje}>
