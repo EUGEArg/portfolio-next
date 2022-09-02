@@ -103,7 +103,7 @@ const Card = () => {
                         <a target='_blank'>
                             <Image width={270} height={270} priority src="/projects/seguro.jpg" alt="Buscador de Cancioens" />
                             <div className={styles.text}>
-                                <h3>Buscador de Canciones</h3>
+                                <h3>Cotizador de Seguros</h3>
                                 <div className={styles.lenguaje}>
                                     <p>React</p>
                                     <p>Context API</p>
