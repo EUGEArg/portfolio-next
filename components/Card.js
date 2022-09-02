@@ -53,7 +53,7 @@ const Card = () => {
                         </a>
                     </Link>
                 </div>
-                <div className={styles.card}>
+                {/* <div className={styles.card}>
                     <Link href='https://nexusstudio.up.railway.app/' >
                         <a target='_blank'>
                             <Image width={270} height={270}  priority src="/projects/nexus.jpg" alt="Sitio Web- NexusStudio" />
@@ -67,7 +67,7 @@ const Card = () => {
                             </div>                           
                         </a>
                     </Link>
-                </div>
+                </div> */}
                 <div className={styles.card}>
                     <Link href='https://sparkly-puppy-279b1e.netlify.app/' >
                         <a target='_blank'>
