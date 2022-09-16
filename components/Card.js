@@ -56,13 +56,9 @@ const Card = () => {
                 {/* <div className={styles.card}>
                     <Link href='https://nexusstudio.up.railway.app/' >
                         <a target='_blank'>
-                            <Image width={270} height={270}  priority src="/projects/nexus.jpg" alt="Sitio Web- NexusStudio" />
+                            <Image width={270} height={270}  priority src= alt="" />
                             <div className={styles.text}>
-                                <h3>Web Site: NEXUS STUDIO</h3>
-                                <div className={styles.lenguaje}>
-                                    <p>Next.js</p>
-                                    <p>Módulos CSS</p>
-                                </div>
+                                
                                 
                             </div>                           
                         </a>
@@ -101,7 +97,7 @@ const Card = () => {
                 <div className={styles.card}>
                     <Link href='https://splendorous-youtiao-e3ba17.netlify.app/' >
                         <a target='_blank'>
-                            <Image width={270} height={270} priority src="/projects/seguro.jpg" alt="Buscador de Cancioens" />
+                            <Image width={270} height={270} priority src="/projects/seguro.jpg" alt="Buscador de Canciones" />
                             <div className={styles.text}>
                                 <h3>Cotizador de Seguros</h3>
                                 <div className={styles.lenguaje}>
@@ -109,6 +105,20 @@ const Card = () => {
                                     <p>Context API</p>
                                 </div>                                
                             </div>
+                        </a>
+                    </Link>
+                </div>
+                <div className={styles.card}>
+                    <Link href='https://nexusstudio.up.railway.app/' >
+                        <a target='_blank'>
+                            <Image width={270} height={270} priority src="/projects/nexus.jpg" alt="Sitio Web- NexusStudio" />
+                            <div className={styles.text}>
+                                <h3>Web Site: NEXUS STUDIO</h3>
+                                    <div className={styles.lenguaje}>
+                                        <p>Next.js</p>
+                                        <p>Módulos CSS</p>
+                                    </div>
+                            </div>                                
                         </a>
                     </Link>
                 </div>

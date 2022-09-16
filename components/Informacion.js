@@ -18,7 +18,7 @@ const Informacion = () => {
                     <p>Estoy buscando una oportunidad como desarrolladora Front end, por ello, si considerás que mi perfil es acorde al que estás buscando no dudes en ponerte en contacto conmigo!</p>
                     <div className={styles.pdf}>
                         <h3>Mi cv</h3>
-                        <Link href='/pdf/C.V Maria Eugenia Rivarossa.pdf'>
+                        <Link href='/pdf/CV Eugenia Rivarossa-Frontend Dev.pdf'>
                             <a target='_blank'>
                                 <SiAdobeacrobatreader style={fontStyles} />
                             </a>

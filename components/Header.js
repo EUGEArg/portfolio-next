@@ -4,6 +4,7 @@ import styles from '../styles/Header.module.css'
 import { SiLogmein, SiInstagram, SiGmail, SiTelegram } from "react-icons/si"
 import { useTypewriter} from 'react-simple-typewriter'
 
+
 const Header = () => {
 
 	// const fontStyles = {

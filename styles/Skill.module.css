@@ -57,6 +57,7 @@
     align-items: center;
     justify-content: flex-start;
     margin: auto 6rem;
+    min-height: 700px;
 }
 
 @media (max-width: 1040px)  {
@@ -74,19 +75,19 @@
 
 .content {
     margin-top: 2rem;
-    min-height: 300px;
+    min-width: 300px;
 }
 
 @media (max-width: 1040px) {
     .content {
-        min-width: 300px;
+        /* min-width: 300px; */
         text-align: center;
 }
 }
 
 @media(max-width: 768px) {
     .content {
-        min-width: 300px;
+        /* min-width: 300px; */
         text-align: center;
     }
 }
@@ -103,10 +104,37 @@
     min-height: 300px;
 }
 
+.content {
+    max-width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.hard {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
 
+.icon {
+    font-size: 2.4rem;    
+    margin: 1rem 0.6rem;
+    position: relative;
+}
 
+.hard p{
+    position: absolute;
+    opacity: 0;
+    padding-top: 2.8rem;
+}
 
+.hard p:hover{
+   z-index: 10;
+   color: var(--secundario);
+   opacity: 100;
+   font-weight: 400;
+   font-size: .8rem;
+}
 
 
 
