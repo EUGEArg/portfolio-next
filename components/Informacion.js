@@ -11,7 +11,6 @@ const Informacion = () => {
         <main className={styles.about} id='sobremi'>
             <div className={styles.container}>
                 <div className={styles.info}>
-                    {/* <h2 className='title'>un poco sobre <span>mi</span></h2> */}
                     <h1 className={styles.title}>front end developer</h1>
                     <p>Soy una apasionada de <span>CSS</span> y actualmente estoy desarrollando proyectos en <span>React y Next js</span>.</p>
                     <p>Soy una persona dinámica y curiosa por lo cual estoy en constante aprendizaje y perfeccionamiento de las habilidades adquiridas.</p>

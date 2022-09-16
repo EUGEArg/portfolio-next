@@ -26,7 +26,8 @@
 }
 
 .container {
-    padding-right: 12%;
+    padding-right: 10%;
+    margin-top: 6rem;
 }
 
 @media (max-width: 1040px) {

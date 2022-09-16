@@ -11,12 +11,7 @@ const Skill = () => {
         padding: '3rem',
         border: '.1rem solid #f33974'
     }
-
-    // const iconStyles = {
-    //     fontSize: '2.4rem',
-    //     margin: '1rem 0.6rem',
-    //     cursor:'pointer'
-    // }
+    
     return (
         <main className={styles.skills} id='skills'>
             <div className={styles.container}>
